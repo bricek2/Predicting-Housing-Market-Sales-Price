@@ -1,5 +1,5 @@
 # Predicting Housing Market Sales Price
-
+### Ames Iowa: Alternative to the Boston Housing Data Set
 
 ## Problem Statement
 Develop a multilinear regression that helps home owners and contractors determine what features add value to homes in Ames, Iowa. The goal is to have a general model that can be easily interpreted and then generate a more sophisticated model to improve performance.
@@ -7,19 +7,19 @@ Develop a multilinear regression that helps home owners and contractors determin
 ## Data Dictionary
 |Feature|Type|Dataset|
 |---|---|---|
-|**saleprice**|*float*|Ames Iowa: Alternative to the Boston Housing Data Set| 
-|**neighborhood**|*object*|Ames Iowa: Alternative to the Boston Housing Data Set|
-|**paved_drive**|*object*|Ames Iowa: Alternative to the Boston Housing Data Set| Paved, partially paved, or not paved
-|**gr_liv_area**|*float*|Ames Iowa: Alternative to the Boston Housing Data Set| Above ground living area sq. ft.
-|**overall_qual**|*int*|Ames Iowa: Alternative to the Boston Housing Data Set| Quality of materials used
-|**garage_area**|*float*|Ames Iowa: Alternative to the Boston Housing Data Set|
-|**total_bsmt_sf**|*float*|Ames Iowa: Alternative to the Boston Housing Data Set| 
-|**year_built**|*int*|Ames Iowa: Alternative to the Boston Housing Data Set| 
-|**year_remod_add**|*int*|Ames Iowa: Alternative to the Boston Housing Data Set| Year remodeled or added
-|**mas_vnr_area**|*float*|Ames Iowa: Alternative to the Boston Housing Data Set| Masonry veneer type
-|**fireplaces**|*int*|Ames Iowa: Alternative to the Boston Housing Data Set|
-|**bsmtfin_sf_1**|*float*|Ames Iowa: Alternative to the Boston Housing Data Set| Finished basement sq. ft.
-|**central_air**|*int*|Ames Iowa: Alternative to the Boston Housing Data Set| Yes or no
+|**saleprice**|*float*| The price of the house when sold | 
+|**neighborhood**|*object*| The neighborhood name |
+|**paved_drive**|*object*| Paved, partially paved, or not paved driveway|
+|**gr_liv_area**|*float*| Above ground living area sq. ft.|
+|**overall_qual**|*int*| Quality of building materials used|
+|**garage_area**|*float*| Size of the garage in sq. ft.|
+|**total_bsmt_sf**|*float*| Size of the basement in sq. ft.| 
+|**year_built**|*int*| The year the home was built| 
+|**year_remod_add**|*int*| Year remodeled or added onto the home|
+|**mas_vnr_area**|*float*| Masonry veneer type |
+|**fireplaces**|*int*| If the home has a fireplace or not |
+|**bsmtfin_sf_1**|*float*| Finished basement sq. ft.|
+|**central_air**|*int*| Does the home have central air, Yes or no|
 
 ## Inferences
 - Having a fireplace increases home sale price by $7,000, while holding other features constant and not taking in consideration the type of fireplace. Home owners and contractors may use this information to determine if its worth it to add a fire place based on the cost of installing one. 
